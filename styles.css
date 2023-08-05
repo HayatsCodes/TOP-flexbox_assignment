@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    padding-top: 10px;
+    gap: 50px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 725px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-family: 'Lobster', cursive;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-container {
+    display: flex;
+    gap: 30px;
+}
+
+.hero {
+    width: 500px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+    pad: 5px;
+}
+
+.btn-1 {
+    padding: 10px;
+    padding-right: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    background: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.header-img{
+    width: 500px;
+    height: 250px;
+    background: url('./assets/Images/focuzify_hero.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1), 0 2px 4px rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.content-containers {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.img {
+    width: 166.66px;
+    height: 166.66px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.img:hover {
+    cursor: pointer;
+}
+
+.img-1 {
+    background: url('./assets/Images/focuzify_content-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    background: url('./assets/Images/focuzify_content-2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-3 {
+    background: url('./assets/Images/focuzify_content-3.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-4 {
+    background: url('./assets/Images/focuzify_content-4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.content p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 166.66px;
+    line-height: 20px;
+    gap: 10px;
+    padding: 2px;
+    padding-top: 10px;
+    word-spacing: -1px;
+    color: #a4a6a9;
+}
+
+.content .text-title {
+    text-align: center;
+    color: #1f2937;
+}
+
+.quote-text {
+    background: #E5E7EB;
+    padding: 70px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: rgba(31, 41, 55, 0.8);
+    text-align: center;
+}
+
+.author {
+    color: rgba(31, 41, 55, 1);
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+
+.call-to-action {
+    display: flex;
+    background: #3882F6;
+    padding: 50px;
+    border-radius: 10px;
+    gap: 50px;
+
+}
+
+.call-to-action button {
+    padding: 2px;
+    width: 120px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-weight: bold;
+    gap: 5px;
+}
+
+.cta-text span {
+    color: rgba(31, 41, 55, 0.8);
+}
+
+.footer {
+    background: #1f2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 20px;
+}
